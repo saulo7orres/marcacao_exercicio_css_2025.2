@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  flex-grow: 1;
+}
+
+header {
+  background-color: #2a4d69;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.livro {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.livro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.livro img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.descricao h2 {
+  margin: 0 0 5px 0;
+  font-size: 1.5em;
+  color: #2a4d69;
+}
+
+.descricao p {
+  margin: 0 0 10px 0;
+  line-height: 1.1;
+  color: #000;
+  font-size: 1.2em;
+}
