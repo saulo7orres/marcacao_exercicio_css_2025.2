@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fef8f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  flex-grow: 1;
+}
+
+header {
+  background-color: #f38f4c;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.introducao {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.imagem-bolo {
+  max-width: 35%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagem-bolo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.introducao p {
+  font-size: 1.0em;
+  color: #000;
+  margin-top: 15px;
+}
+
+.ingredientes,
+.preparo {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ingredientes:hover,
+.preparo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.ingredientes h2,
+.preparo h2 {
+  color: #f38f4c;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+ul, ol {
+  padding-left: 30px;
+  line-height: 1.1;
+  color: #000;
+  font-size: 1.1em;
+}
+
+footer {
+  background-color: #f38f4c;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.0em;
+  width: 100%;
+  box-sizing: border-box;
+}
